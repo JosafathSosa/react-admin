@@ -2,11 +2,11 @@ import { Box, Typography, useTheme } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
 import { tokens } from "../../theme";
 import { mockDataInvoices } from "../../data/mockData";
-import {
-  AdminPanelSettingsOutlined,
-  LockOpenOutlined,
-  SecurityOutlined,
-} from "@mui/icons-material";
+// import {
+//   AdminPanelSettingsOutlined,
+//   LockOpenOutlined,
+//   SecurityOutlined,
+// } from "@mui/icons-material";
 import { Header } from "../../components/Header";
 
 export const Invoices = () => {
