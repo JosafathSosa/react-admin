@@ -78,7 +78,7 @@ const Side = () => {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[100]}>
-                  ADMIN
+                  ROSS NATURES
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlined />
@@ -106,10 +106,10 @@ const Side = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Josafath
+                  Rose
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  First Admin
+                  Owner
                 </Typography>
               </Box>
             </Box>

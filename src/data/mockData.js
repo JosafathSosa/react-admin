@@ -431,69 +431,123 @@ export const mockPieData = [
 export const mockLineData = [
   {
     id: "japan",
-
+    color: "hsl(322, 70%, 50%)",
     data: [
       {
         x: "plane",
-        y: 101,
+        y: 60,
       },
       {
         x: "helicopter",
-        y: 75,
-      },
-      {
-        x: "boat",
-        y: 36,
-      },
-      {
-        x: "train",
-        y: 216,
-      },
-      {
-        x: "subway",
-        y: 35,
-      },
-      {
-        x: "bus",
         y: 236,
       },
       {
+        x: "boat",
+        y: 275,
+      },
+      {
+        x: "train",
+        y: 152,
+      },
+      {
+        x: "subway",
+        y: 107,
+      },
+      {
+        x: "bus",
+        y: 240,
+      },
+      {
         x: "car",
-        y: 88,
+        y: 295,
       },
       {
         x: "moto",
-        y: 232,
+        y: 164,
       },
       {
         x: "bicycle",
-        y: 281,
+        y: 264,
       },
       {
         x: "horse",
-        y: 1,
+        y: 137,
       },
       {
         x: "skateboard",
-        y: 35,
+        y: 50,
       },
       {
         x: "others",
-        y: 14,
+        y: 53,
       },
     ],
   },
   {
     id: "france",
-
+    color: "hsl(281, 70%, 50%)",
     data: [
       {
         x: "plane",
-        y: 212,
+        y: 94,
       },
       {
         x: "helicopter",
-        y: 190,
+        y: 218,
+      },
+      {
+        x: "boat",
+        y: 58,
+      },
+      {
+        x: "train",
+        y: 142,
+      },
+      {
+        x: "subway",
+        y: 63,
+      },
+      {
+        x: "bus",
+        y: 74,
+      },
+      {
+        x: "car",
+        y: 4,
+      },
+      {
+        x: "moto",
+        y: 252,
+      },
+      {
+        x: "bicycle",
+        y: 76,
+      },
+      {
+        x: "horse",
+        y: 177,
+      },
+      {
+        x: "skateboard",
+        y: 226,
+      },
+      {
+        x: "others",
+        y: 88,
+      },
+    ],
+  },
+  {
+    id: "us",
+    color: "hsl(81, 70%, 50%)",
+    data: [
+      {
+        x: "plane",
+        y: 142,
+      },
+      {
+        x: "helicopter",
+        y: 82,
       },
       {
         x: "boat",
@@ -501,93 +555,147 @@ export const mockLineData = [
       },
       {
         x: "train",
-        y: 9,
+        y: 215,
       },
       {
         x: "subway",
-        y: 75,
+        y: 186,
       },
       {
         x: "bus",
-        y: 175,
+        y: 296,
       },
       {
         x: "car",
-        y: 33,
+        y: 106,
       },
       {
         x: "moto",
-        y: 189,
+        y: 142,
       },
       {
         x: "bicycle",
-        y: 97,
+        y: 36,
       },
       {
         x: "horse",
-        y: 87,
+        y: 54,
       },
       {
         x: "skateboard",
-        y: 299,
+        y: 265,
       },
       {
         x: "others",
-        y: 251,
+        y: 261,
       },
     ],
   },
   {
-    id: "us",
-
+    id: "germany",
+    color: "hsl(195, 70%, 50%)",
     data: [
       {
         x: "plane",
-        y: 191,
-      },
-      {
-        x: "helicopter",
-        y: 136,
-      },
-      {
-        x: "boat",
-        y: 91,
-      },
-      {
-        x: "train",
-        y: 190,
-      },
-      {
-        x: "subway",
-        y: 211,
-      },
-      {
-        x: "bus",
-        y: 152,
-      },
-      {
-        x: "car",
-        y: 189,
-      },
-      {
-        x: "moto",
-        y: 152,
-      },
-      {
-        x: "bicycle",
-        y: 8,
-      },
-      {
-        x: "horse",
         y: 197,
       },
       {
+        x: "helicopter",
+        y: 285,
+      },
+      {
+        x: "boat",
+        y: 61,
+      },
+      {
+        x: "train",
+        y: 126,
+      },
+      {
+        x: "subway",
+        y: 270,
+      },
+      {
+        x: "bus",
+        y: 230,
+      },
+      {
+        x: "car",
+        y: 240,
+      },
+      {
+        x: "moto",
+        y: 299,
+      },
+      {
+        x: "bicycle",
+        y: 39,
+      },
+      {
+        x: "horse",
+        y: 173,
+      },
+      {
         x: "skateboard",
-        y: 107,
+        y: 191,
       },
       {
         x: "others",
-        y: 170,
+        y: 213,
+      },
+    ],
+  },
+  {
+    id: "norway",
+    color: "hsl(20, 70%, 50%)",
+    data: [
+      {
+        x: "plane",
+        y: 45,
+      },
+      {
+        x: "helicopter",
+        y: 56,
+      },
+      {
+        x: "boat",
+        y: 43,
+      },
+      {
+        x: "train",
+        y: 26,
+      },
+      {
+        x: "subway",
+        y: 158,
+      },
+      {
+        x: "bus",
+        y: 112,
+      },
+      {
+        x: "car",
+        y: 154,
+      },
+      {
+        x: "moto",
+        y: 132,
+      },
+      {
+        x: "bicycle",
+        y: 121,
+      },
+      {
+        x: "horse",
+        y: 230,
+      },
+      {
+        x: "skateboard",
+        y: 225,
+      },
+      {
+        x: "others",
+        y: 143,
       },
     ],
   },
