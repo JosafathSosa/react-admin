@@ -15,6 +15,7 @@ import {
   TimelineOutlined,
   MenuOutlined,
   MapOutlined,
+  PieChartOutline,
 } from "@mui/icons-material";
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
@@ -189,6 +190,13 @@ const Side = () => {
               title="Bar Chart"
               to="/bar"
               icon={<BarChartOutlined />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="Pie Chart"
+              to="/pie"
+              icon={<PieChartOutline />}
               selected={selected}
               setSelected={setSelected}
             />
